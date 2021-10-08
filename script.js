@@ -41,7 +41,10 @@ const createPokemonCard = (pokemon) => {
   const pokemonInnerHtml = `
   <div class="pokemon" style="background-color: rgb(222,253,274)">
       <div class="img-container">
-      <img src="https://img.redbull.com/images/c_crop,x_0,y_0,h_1080,w_1620/c_fill,w_1500,h_1000/q_auto,f_auto/redbullcom/2017/08/29/03820845-b090-444f-86d1-e5259d11482f/most-heroic-pokemon.jpg.jpg" alt="pokemon image">
+      <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/
+      ${id}.png" alt="pokemon">
+
+      
       <div class="info">
         <span class="number">001</span>
         <h3 class="name">dragonite</h3>
@@ -59,6 +62,9 @@ const createPokemonCard = (pokemon) => {
 }
 
 fetchPokemons();
+
+
+
 
 
 
